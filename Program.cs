@@ -13,7 +13,7 @@ namespace DotnetBakery
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main(string[] args) // The entry point for our code.
         {
             CreateHostBuilder(args).Build().Run();
         }
